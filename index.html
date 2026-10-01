@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stay in touch — The ReWild Group</title>
+  <style>
+    :root {
+      --green: #981830;
+      --green-dark: #7a1326;
+      --green-soft: #f6e8eb;
+      --ink: #1c241b;
+      --muted: #5b6459;
+      --line: #e0d4d6;
+      --paper: #f7f6f1;
+      --white: #fff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.55;
+    }
+    header {
+      background: var(--green-dark);
+      color: #e8f0e6;
+      padding: 14px 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.04em;
+    }
+    header strong { color: #fff; }
+    .wrap {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+    }
+    .kicker {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin: 0 0 10px;
+    }
+    h1 {
+      font-size: 34px;
+      line-height: 1.2;
+      font-weight: 400;
+      margin: 0 0 16px;
+    }
+    .lede { font-size: 18px; color: var(--muted); margin: 0 0 28px; }
+    .card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 28px 28px 22px;
+    }
+    label {
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      margin: 16px 0 6px;
+    }
+    label:first-of-type { margin-top: 0; }
+    input[type="text"], input[type="email"], select {
+      width: 100%;
+      padding: 11px 12px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .check {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin: 18px 0 8px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    .check input { margin-top: 3px; }
+    button {
+      margin-top: 20px;
+      background: var(--green);
+      color: #fff;
+      border: 0;
+      padding: 13px 22px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover { background: var(--green-dark); }
+    .fine {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      color: var(--muted);
+      margin: 16px 0 0;
+    }
+    .fine a { color: var(--green); }
+    hr.rule {
+      border: 0;
+      border-top: 1px solid var(--line);
+      margin: 40px 0 24px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 400;
+      margin: 0 0 10px;
+    }
+    ul { padding-left: 18px; color: var(--muted); }
+    footer {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 36px;
+    }
+    footer a { color: var(--green); }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>businessrewilding.com</strong>
+    &nbsp;·&nbsp; A domain of The ReWild Group
+  </header>
+  <div class="wrap">
+    <p class="kicker">Permission to write</p>
+    <h1>May we email you about Organizational ReWilding?</h1>
+    <p class="lede">
+      This page is for people we already know — clients, workshop guests,
+      advisers, and others we have met. It is not a newsletter signup for the public.
+    </p>
+
+    <form class="card" action="#" method="post">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" autocomplete="name" required />
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="email" required />
+
+      <label for="role">I am primarily a…</label>
+      <select id="role" name="audience">
+        <option value="">Choose one</option>
+        <option value="owner">Business owner or executive</option>
+        <option value="adviser">Adviser, coach, or consultant</option>
+        <option value="broker">Broker, buyer, or seller</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label class="check">
+        <input type="checkbox" name="consent" value="yes" required />
+        <span>Yes — send me occasional notes from The ReWild Group (stages of growth, workshops, and tools such as ReWild QuickStart). I understand I can unsubscribe at any time.</span>
+      </label>
+
+      <button type="submit">Confirm I want email from The ReWild Group</button>
+      <p class="fine">
+        You will get a confirmation email. We will not add you until you click that link.
+        Frequency is about once a month, plus a note when a workshop or tool opens.
+      </p>
+    </form>
+
+    <hr class="rule" />
+    <h2>Why this address is not rewildgroup.com</h2>
+    <p>
+      <strong>businessrewilding.com</strong> is a domain we own so the brand name
+      stays with us. This form lives here so a permission request is separate
+      from client and transactional mail on rewildgroup.com.
+    </p>
+    <p>
+      The ReWild Group’s main site is
+      <a href="https://www.rewildgroup.com">rewildgroup.com</a>.
+      If you did not expect this note, you can ignore it — we will not write again.
+    </p>
+
+    <h2>What we will not do</h2>
+    <ul>
+      <li>Sell or rent your address</li>
+      <li>Add you because you accepted a LinkedIn invitation</li>
+      <li>Keep mailing if you do not confirm</li>
+    </ul>
+
+    <footer>
+      The ReWild Group · Westminster / Front Range, Colorado<br />
+      <a href="#">Privacy</a>
+      &nbsp;·&nbsp;
+      <a href="#">Unsubscribe / do not contact</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.rewildgroup.com">rewildgroup.com</a>
+    </footer>
+  </div>
+</body>
+</html>
